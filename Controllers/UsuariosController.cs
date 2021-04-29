@@ -1,6 +1,6 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Threading.Tasks;
-using CdastroWeb.Models;
+using CadastroWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 /// Controller criada de forma automática pela VS
 /// </summary>
 
-namespace CdastroWeb.Controllers
+namespace CadastroWeb.Controllers
 {
     public class UsuariosController : Controller
     {
