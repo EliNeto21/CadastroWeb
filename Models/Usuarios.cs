@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 /// Criação de todas as Models pertencentes aos usuários
 /// </summary>
 
-namespace CdastroWeb.Models
+namespace CadastroWeb.Models
 {
     [Table("Usuario")]
     public class Usuario
