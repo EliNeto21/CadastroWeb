@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /// Criação do contexto para criar a base e tebala se não existirem
 /// </summary>
 
-namespace CadastroWeb.Models
+namespace CdastroWeb.Models
 {
     public class Contexto : DbContext
     {
