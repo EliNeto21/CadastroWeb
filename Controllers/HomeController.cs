@@ -1,4 +1,4 @@
-﻿using CdastroWeb.Models;
+using CadastroWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CdastroWeb.Controllers
+namespace CadastroWeb.Controllers
 {
     public class HomeController : Controller
     {
