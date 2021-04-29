@@ -20,7 +20,7 @@ namespace CdastroWeb.Controllers
 
         public IActionResult Index()
         {
-            return View("/Usuarios");
+            return Redirect("/Usuarios");
         }
 
         public IActionResult Privacy()
