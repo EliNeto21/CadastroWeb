@@ -25,10 +25,11 @@ namespace CdastroWeb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Configuração do MySQL
-            string stringConexao = "Server=localhost;DataBase=CadastroWeb;Uid=root;Pwd=1234";
+            // ConfiguraÃ§Ã£o do MySQL
+            string stringConexao = "Server=localhost;DataBase=CadastroWeb;Uid=root";
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 21));
             services.AddDbContext<Contexto>(options =>
-            options.UseMySQL(stringConexao));
+            options.UseMySql(stringConexao, serverVersion));
             //Utilizado MySQL.Data.EntityFrameworkCore para UseMySQL
             services.AddControllersWithViews();
         }
