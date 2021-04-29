@@ -1,6 +1,6 @@
 using System;
 
-namespace CdastroWeb.Models
+namespace CadastroWeb.Models
 {
     public class ErrorViewModel
     {
