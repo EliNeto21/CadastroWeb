@@ -1,4 +1,4 @@
-# CdastroWeb
+# CadastroWeb
 Cadastro básico de Cliente com Contatos e validações de campos.
 
 Utilizando as seguintes tecnologias:
